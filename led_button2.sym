@@ -1,0 +1,59 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+021     main.x
+022     main.a
+023     main.a
+024     @delay_ms1.P1
+024     main.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @delay_ms1
+000019  @cinit1
+000019  main
+00001E  @cinit2
+
+Project Directory:
+    C:\Users\oguzn\OneDrive\Masaüstü\ccs c örn\
+
+Project Files:
+    led_button2.c                                           [01-Þub-20 16:34  CRC=821AEE86]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877.h [21-Haz-13 16:04  CRC=A355A189]
+
+Source signature=C8C63198
+
+Units:
+    led_button2 (main)
+
+Compiler Settings:
+    Processor:      PIC16F877
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   led_button2.xsym
+    Errors:      led_button2.err
+    Ext Symbols: led_button2.esym
+    INHX8:       led_button2.hex
+    Symbols:     led_button2.sym
+    List:        led_button2.lst
+    Debug/COFF:  led_button2.cof
+    Project:     led_button2.ccspjt
+    Call Tree:   led_button2.tre
+    Statistics:  led_button2.STA

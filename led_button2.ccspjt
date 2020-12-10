@@ -1,0 +1,22 @@
+[PROJECT]
+Target=led_button2.hex
+Processor_Text=PIC16F877
+CCSVerions=5.007
+Compiler=PCM
+CCSVersion=5.007
+[Target Data]
+FileList=led_button2.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[C:\Users\oguzn\OneDrive\Masaüstü\ccs c örn\led_button2]
+Type=4
+[mru-list]
+1=led_button2.c
+[Opened Files]
+1=led_button2.c
+2=
+[led_button2.c]
+Type=4
+[Units]
+Count=1
+1=led_button2 (main)
